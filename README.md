@@ -10,8 +10,9 @@ It is based on <a href="https://graphology.github.io/" target="_blank">Grapholog
 In the project directory, you can run:
 
 ### `npm install`
-### `npm serve`
+It resolves dependancies and install required libraries
 
+### `npm serve`
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
