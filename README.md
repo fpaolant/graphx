@@ -1,4 +1,4 @@
-# graphx
+# Graphx
 
 This project is a simple fluent API to draw graph & interact with its data structure.
 It includes a small example in file usage.js to interact with the fluent and build your own application.
