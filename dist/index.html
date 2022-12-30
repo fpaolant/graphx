@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>GraphX - Fluent API Example</title>
+  </head>
+  <body>
+    <h2>Esempio di utilizzo della Fluent API GraphX</h2>
+    <p>GraphX &egrave; scritta in linguaggio di scripting <a href="https://graphology.github.io/" target="_blank">TypeScript</a> e fa uso delle librerie opensource <a href="https://graphology.github.io/" target="_blank">Graphology</a> per la struttura dei dati e <a href="https://www.sigmajs.org/" target="_blank">Sigma</a> per la presentazione degli stessi</br></p>
+    <div id="controls">
+      <input type="button" id="zoomIn" value="zoom +" />
+      <input type="button" id="zoomOut" value="zoom -" />
+      <input type="button" id="zoomReset" value="zoom reset" />
+      <input type="button" id="clear" value="clear Graph" />
+    </div>
+    <p>To add a new node simply clicking outside the graph!</p>
+    <div id="main">
+      <div id="container"></div>
+    </div>
+    <div id="counters">
+      <div><b>Graph order:</b></div>
+      <div id="order"></div>
+      <div><b>Graph nodes:</b></div>
+      <div id="numNodes"></div>
+      <div><b>Graph edges:</b></div>
+      <div id="numEdges"></div>
+    </div>
+
+    <h5>JSON Viewer</h5>
+    <textarea id="jsonViewer">
+
+    </textarea>
+    <script src="bundle.js"></script>
+    <script src="usage.js">
+      
+
+    </script>
+    <footer>
+      Applicazione web sviluppata per il corso di Programmazione Web del Master MWT Edizione 2021-22 - Universit&agrave; degli Studi dell'Aquila
+    </footer>
+  </body>
+</html>
