@@ -13,7 +13,7 @@ In the project directory, you can run:
 It resolves dependencies and install required libraries
 
 ### `npm serve`
-Runs the app in the development mode.
+Run the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ##DEMO
