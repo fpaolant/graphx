@@ -10,7 +10,7 @@ It is based on <a href="https://graphology.github.io/" target="_blank">Grapholog
 In the project directory, you can run:
 
 ### `npm install`
-It resolves dependancies and install required libraries
+It resolves dependencies and install required libraries
 
 ### `npm serve`
 Runs the app in the development mode.
